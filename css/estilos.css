@@ -1,0 +1,108 @@
+#contenido{
+	width: 100%;
+	animation-duration: 1s;
+}
+body{
+	font-size: 16px;
+	font-family: "dancing-script";
+	background-color: #02010a;
+	position: relative;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin: 0;
+	
+}
+header{
+	background: #5b7989;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+img{
+	box-shadow: 2px 2px  #02010a;
+}
+header h1{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px #02010a;
+	padding-top: 10px;
+	margin: 0;
+	
+	
+}
+header nav{
+
+	display: flex;
+	justify-content: center;
+	font-size: 24px;
+
+}
+header nav ul{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+
+}
+header nav ul li a{
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+}
+#contenedor{
+	display: flex;
+	background: #82c3a6;
+	width: 100%;
+	height: 30%;
+	justify-content: center;
+	align-items: center;
+}
+#contenedor img{
+	display: flex;
+	height: 80%;
+	width: 80%;
+}
+#contenedor2{
+	background: #d5c75f;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+#contenedor2 img{
+	height: 25%;
+	width: 80%;
+	margin: 3%;
+}
+#contenedor2 p{
+	font-size: 24px;
+	margin: 0;
+	margin-bottom:10px;
+}
+#img1:hover{
+	transform: rotate(10deg);
+	box-shadow: 2px 2px #82c3a6;
+}
+#img2:hover{
+	transform: translatey(-5px)
+				translateX(20px);
+	box-shadow: 2px 2px #82c3a6;
+}
+footer{
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background:  #C6d5c5;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	
+}
+@media screen and (min-width:900px){
+	#contenido{
+		width: 900px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
